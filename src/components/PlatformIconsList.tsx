@@ -19,7 +19,8 @@ interface Props {
 }
 
 const PlatformIconsList = ({ platforms }: Props) => {
-  //index signature
+  //index signature syntax
+  //slug -> textural id
   const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
     playstation: FaPlaystation,
